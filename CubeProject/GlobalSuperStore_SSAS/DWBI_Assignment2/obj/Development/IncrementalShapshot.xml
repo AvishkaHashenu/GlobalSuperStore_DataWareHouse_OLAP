@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>DWBI_Assignment2</Database>
+    <Server>DESKTOP-2L5IJUI\MSSQLSERVER1</Server>
+    <ConnectionString>Data Source=DESKTOP-2L5IJUI\MSSQLSERVER1;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>LpqMP5mUjhWpgO5FQ+C68viMkrA=5/17/2022 7:57:12 PM5/17/2022 7:57:12 PM</TimeStamp>
+        <ID>
+          <String>DS_GlobalSuperStore_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>95gV55CgR6JetrDp27izEu+wafU=5/17/2022 7:58:09 PM5/17/2022 7:58:08 PM</TimeStamp>
+        <ID>
+          <String>DSV_GlobalSuperStore_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>P2Vdti6A5ILrKg83pKrY1y0zWNM=5/17/2022 8:02:41 PM5/17/2022 8:00:15 PM</TimeStamp>
+        <ID>
+          <String>Dim Shipment Details</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>mGsyFAwOLKp6otRc/MFLRdhKFfg=5/17/2022 8:02:41 PM5/17/2022 8:00:15 PM</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UaCatezqYcHRKEZFBDe7YG82moM=5/17/2022 8:02:41 PM5/17/2022 8:00:15 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tuoYAqoeq4MkoKCOFDn7Cmm4Fl0=5/17/2022 8:02:41 PM5/17/2022 8:00:15 PM</TimeStamp>
+        <ID>
+          <String>Dim Market Details</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>xT8fq0muh2I8X9RndIxCGs0Uj6s=5/17/2022 8:02:41 PM5/17/2022 8:00:15 PM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Zwi0OBf77fgIDfTUavRBkAPkRZs=5/17/2022 8:02:41 PM5/17/2022 8:00:15 PM</TimeStamp>
+        <ID>
+          <String>Dim Order Priority Details</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>kfqKDrfqz7tB6adXsrXXlWqFYWA=5/17/2022 8:13:16 PM5/17/2022 8:00:15 PMWr9iHtgohXDr/fZ7Eo0o/VgCCto=5/17/2022 8:00:17 PM5/17/2022 8:00:15 PM</TimeStamp>
+        <ID>
+          <String>Cube_GlobalSuperStore_DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>FElSbGGEUHQhNZo28n5cAZ2ts2M=5/17/2022 7:55:39 PM5/17/2022 7:55:38 PM</TimeStamp>
+      <ID>
+        <String>DWBI_Assignment2</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-05-17T14:43:28.323333Z</LastDeployed>
+</DeploymentSnapshot>
